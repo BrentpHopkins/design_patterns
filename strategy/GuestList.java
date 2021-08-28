@@ -26,8 +26,7 @@ public class GuestList {
  * @return returns a boolean. returns true if the person is not already within the ArrayList and was added. returns false if the person is already present within the ArrayList and was not added
  */
     public boolean add(String person) {
-        BinarySearch search = new BinarySearch();
-        if(search.contains(people, person)){
+        if(searchBehavior.contains(people, person)){
             return false;
         }
         return people.add(person);
@@ -38,7 +37,11 @@ public class GuestList {
  * @return returns a boolean. returns true if the person was found and removed from the list. returns false if the person was not in the list
  */
     public boolean remove(String person) {
-        return people.remove(person);
+        if(searchBehavior.contains(people, person)){
+            people.remove(person);
+            return true;
+        }
+        return false;
     }
 /**
  * gets the title of the GuestList

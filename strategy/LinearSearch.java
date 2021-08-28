@@ -13,12 +13,12 @@ public class LinearSearch implements SearchBehavior {
  * @return returns a boolean. returns true if the item is found and false if it is not.
  */
     public boolean contains(ArrayList<String> data, String item) {
-        for (int i = 0; i <= data.size(); i++) {
+        for (int i = 0; i < data.size(); i++) {
             if (data.get(i).equalsIgnoreCase(item)) {
                 return true;
             }
         }
-
+        
         return false;
     }
 
