@@ -38,8 +38,7 @@ public class GuestList {
  */
     public boolean remove(String person) {
         if(searchBehavior.contains(people, person)){
-            people.remove(person);
-            return true;
+            return people.remove(person);
         }
         return false;
     }

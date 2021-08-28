@@ -18,7 +18,7 @@ public class LinearSearch implements SearchBehavior {
                 return true;
             }
         }
-        
+
         return false;
     }
 
