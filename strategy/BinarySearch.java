@@ -20,7 +20,7 @@ public class BinarySearch implements SearchBehavior {
         int mid = 0;
         Collections.sort(data);
         while (left <= right) {
-            mid = left + ((right - left) / 2);
+            mid = (right+left)/2;
 
             if (data.get(mid).equalsIgnoreCase(item)) {
                 return true;
