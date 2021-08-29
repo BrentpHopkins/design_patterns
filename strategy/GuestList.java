@@ -43,7 +43,7 @@ public class GuestList {
         return false;
     }
 /**
- * gets the title of the GuestList
+ * gets the title of the GuestList 
  * @return returns the title of the GuestList as a String
  */
     public String getTitle(){
