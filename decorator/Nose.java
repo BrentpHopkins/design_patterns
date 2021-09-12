@@ -1,6 +1,7 @@
 package decorator;
 /**
  * adds a nose to the character
+ * @author Brent Hopkins
  */
 public class Nose extends CharacterDecorator {
     /**

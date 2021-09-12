@@ -2,6 +2,7 @@ package decorator;
 
 /**
  * Runs the Potoatoe Head Program
+ * @author Brent Hopkins
  */
 public class PotatoeDriver {
 

@@ -1,6 +1,7 @@
 package decorator;
 /**
  * representation of a Mr.PotatoeHead
+ * @author Brent Hopkins
  */
 public class PotatoeHead extends Character {
     /**
