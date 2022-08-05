@@ -32,7 +32,7 @@ public class Visit {
     }
 
     /**
-     * Weather it is a well check or a sick visit
+     * Whether it is a well check or a sick visit
      * 
      * @return true if it is a well visit and false otherwise
      */
